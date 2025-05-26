@@ -17,7 +17,7 @@ func SnowFlakeToTime(snowflakeID uint64) time.Time {
 }
 
 func ExtractSnowflakeID(input string) (uint64, error) {
-	if strings.Contains(input, "x.com") {
+	if strings.Contains(input, "x.com") || strings.Contains(input, "twitter.com") {
 		parts := strings.Split(input, "/")
 		if len(parts) < 6 {
 			return 0, fmt.Errorf("invalid URL format")
