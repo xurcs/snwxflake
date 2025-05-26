@@ -4,7 +4,7 @@
 A simple tool to convert Twitter (X) snowflake IDs to timestamps. Useful for Twitter scrapers or analyzing tweet creation times. This is a minimal implementation for quick use.
 
 ## Usage
-1. Input a Twitter snowflake ID or tweet URL.
+1. Input a Twitter snowflake ID or tweet URL (supports both x.com and twitter.com).
 2. The tool outputs the corresponding timestamp.
 
 ## Output
