@@ -1,5 +1,7 @@
 # I was bored, had nothing to do and that is why I made a simple Twitter (X) snowflake to timestamp converter..
 
+#[KNOWN BUG]: It is not clearing the whole system available RAM at this moment- will look into this soon.
+
 ## Overview
 A simple tool to convert Twitter (X) snowflake IDs to timestamps. Useful for Twitter scrapers or analyzing tweet creation times. This is a minimal implementation for quick use.
 
